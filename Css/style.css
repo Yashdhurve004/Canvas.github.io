@@ -1,0 +1,591 @@
+.banner-wrapper
+{
+	width:100%;
+	float:left;
+	background-image:url('../img/bg_slilder-1.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:670px;
+	padding-bottom:200px;
+	word-spacing:10px;
+}
+.nav-item
+{
+	/* word-spacing:10px; */
+}
+.header-content img 
+{
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+header .header-content 
+{
+    margin-top: 155px;
+}
+.header-content row h3 
+{
+	color:red;
+}
+.menu-wrapper .menu .menu-item{padding: 5px;}
+.menu-wrapper .menu .menu-item:hover{
+	background-color: #ff4c00;
+	border-radius: 10px;
+	
+}
+/* #################### btn Wrapper Start #################### */
+.header-content .btn-ornge 
+{
+    background: #ff4c00 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 0;
+    padding-left: 28px;
+    position: relative;
+    transition: all .5s ease-in-out 0s;
+}
+/* .btn-ornge .hbtn { */
+    /* border-radius: 20px; */
+    /* display: inline-block; */
+    /* height: 100%; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* width: 0; */
+    /* transition: all .3s ease 0s; */
+/* } */
+.btn-ornge span 
+{
+    position: relative;
+}
+.btn-ornge i 
+{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #000;
+    margin-left: 13px;
+    margin-right: -24px;
+    padding: 22px;
+    position: relative;
+    z-index: 99;
+}
+/* #################### btn Wrapper Start #################### */
+/* #################### About Wrapper Start #################### */
+.about-content
+{
+	position:relative;
+	z-index:99;
+}
+#about {
+    background-color: #E2E1E1;
+    background-size: 10%;
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+#about::before {
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+#about h1 {
+    font-size: 42px !important;
+    font-family: "Oswald";
+}
+#about h1 span {
+    color: #ff4c00;
+}
+/* #################### About Wrapper End #################### */
+/* how-it-works before */
+#how-it-works {
+    background-color: #E2E1E1;
+    background-size: 10%;
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+#how-it-works::before {
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+#how-it-works h1 {
+    font-size: 42px !important;
+    font-family: "Oswald";
+}
+#how-it-works h1 span 
+{
+    color: #ff4c00;
+}
+/* how-it-works	before-after */
+/* how-it-works */
+.heading-1 
+{
+    color: #ff4c00;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Oswald";
+}
+.heading-1 
+ {
+    font-size: 30px;
+	text-align:center;
+	font-family: "Oswald";
+}
+.heading-1 p
+{
+	text-align:center;
+}
+.heading-1 span
+{
+	color:#000;
+}
+.paragraph-content
+{
+	text-align:center;
+    margin-bottom: 30px;
+    padding: 20px 100px;
+}
+.how-content{
+  position:relative;
+  z-index:99;  
+}
+.how-content
+{
+    margin-right: -10px;
+    margin-left: -15px;
+}
+.textright 
+{
+    text-align: right;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.textleft
+{
+	text-align:left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.iconfont {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 47%;
+    box-shadow: 6px 2px 5px #eee;
+    color: #ff4c00;
+    float: right;
+    font-size: 28px;
+    height: 55px;
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    width: 55px;
+}
+.iconfont-2
+{
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 47%;
+    box-shadow: 6px 2px 5px #eee;
+    color: #ff4c00;
+    float: left;
+    font-size: 28px;
+    height: 55px;
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    width: 55px;
+}
+
+/* how-it-works end */
+/* screenshort start */
+/*  screenshort start before-after */
+
+#screenshort {
+    background-color: #E2E1E1;
+    background-size: 10%;
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+#screenshort::before {
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+#screenshort h1 {
+    font-size: 42px !important;
+    font-family: "Oswald";
+}
+#screenshort h1 span 
+{
+    color: #ff4c00;
+}
+
+/*  screenshort start before-after end */
+.container-wrapper
+{
+	width:100%;
+	float:left;
+}
+.screenshort-content
+{
+	position:relative;
+	z-index:99;
+}
+.screenshort-1
+{
+    color: #ff4c00;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Oswald";
+	text-align:center;
+}
+.screenshort-1 span
+{
+	color:black;
+}
+.screenshort-2
+{
+	text-align:center;
+}
+.item-right
+{
+	width:50%;
+	float:left;
+}
+.item-left
+{
+	width:50%;
+	float:left;
+}
+/* screenshort end  */
+
+/* price befor-after Start */
+
+#screenshort {
+    background-color: #E2E1E1;
+    background-size: 10%;
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+#screenshort::before {
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+#screenshort h1 {
+    font-size: 42px !important;
+    font-family: "Oswald";
+}
+#screenshort h1 span 
+{
+    color: #ff4c00;
+}
+/* price befor-after end */
+.price-content
+{
+	position:relative;
+	z-index:99;	
+}
+#Price {
+    background-color: #E2E1E1;
+    background-size: 10%;
+    position: relative;
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+#Price::before {
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 4;
+}
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+#Price h1 {
+    font-size: 42px !important;
+    font-family: "Oswald";
+}
+#Price h1 span 
+{
+    color: #ff4c00;
+}
+
+/* price start */
+
+.price-1 
+{
+    color: #ff4c00;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Oswald";
+    text-align: center;
+}
+.price-1 span
+{
+	color:black;
+}
+.price-2
+{
+	text-align:center;
+}
+
+/* price end *
+
+/* footer start */
+.footer-wrapper
+{
+	width:100%;
+	float:left;
+}
+.clall-now-right
+{
+	width:50%;
+	float:left;
+}
+.clall-now-left
+{
+	width:50%;
+	float:left;
+}
+.footer-2
+{
+	text-align:center;
+	color:#ff4c00;
+}
+.footer-2 span
+{
+	color:#fff;
+}
+.footer-wrapper
+{
+    background:#333 none repeat scroll 0 0;
+    color: #fff;
+    padding: 60px 0 120px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.call-now-left h3 
+{
+	color: #ff4c00;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Oswald";
+	text-align:center;
+}
+
+/* footer end  */
